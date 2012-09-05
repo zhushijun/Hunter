@@ -3,7 +3,8 @@
     <wb-module deploy-name="Hunter">
         <wb-resource deploy-path="/" source-path="/WebRoot" tag="defaultRootSource"/>
         <wb-resource deploy-path="/WEB-INF/classes" source-path="/src"/>
-        <property name="context-root" value="Hunter"/>
+        <wb-resource deploy-path="/WEB-INF/classes" source-path="/conf"/>
         <property name="java-output-path" value="/Hunter/build/classes"/>
+        <property name="context-root" value="/"/>
     </wb-module>
 </project-modules>
